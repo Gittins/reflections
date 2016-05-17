@@ -7,7 +7,7 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
     The staging area is like a loading area for a commit. Files are added to the
-    staging area then a commit is run to save the changes. File in the working 
+    staging area then a commit is run to save the changes. Files in the working 
     directory don't have to be put in the staging area, but if they aren't they
     won't be tracked by git.
 
@@ -19,4 +19,10 @@ How can you use the staging area to make sure you have one commit per logical ch
     directory and the staging area files.
 
 
-    
+What are some situations when branches would be helpful in keeping your history 
+organized? How would branches help?
+
+    Splitting out test and production code would be a good reason to branch it.
+    As would significant feature changes.
+
+
