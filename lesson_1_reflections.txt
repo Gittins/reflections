@@ -1,0 +1,49 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Diff highlighed just the differences between the two files to allow me to 
+    quickly pin-point the differences.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    The abiliity to go back and look at previous working versions of a file
+    would allow for simplified troubleshooting of code.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Pros:    Obvious points code endings, sensible save points. 
+    Cons:    Infrequent saves, chance to forget to save.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    In Google Docs you are only ever working on a single file, that has no direct
+    relationship to the other files in GDs, so far as GD knows. In Git you are 
+    working on code based files, which commonly have multiple inter-related files.
+    Therefore tracking the changes for all the inter-related files helps and makes
+     a lot of sense.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log - This command outputs all the changes that have occurred in a git 
+    repository. This will detail the commit ID, the author of the change, the time
+    it was made, and the comment/description of the change.
+
+    git diff - This command followed by the commit IDs of two commits will show the
+    differences between them. '+ 'shows additions, '-' shows deletions. Remember 
+    that the order of the log is from most recent to oldest!!
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    The fact that you can use "git checkout (commit ID)" to move back to a previous
+    version of a file/repository means that if you introduce an error and break the
+    application, it's easy to grab a working version again to see what broke it.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I'd like to use git to track my SSH python program I'm developing.
