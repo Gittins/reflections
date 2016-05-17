@@ -25,4 +25,9 @@ organized? How would branches help?
     Splitting out test and production code would be a good reason to branch it.
     As would significant feature changes.
 
+How do the diagrams help you visualize the branch structure?
+
+    Diagrams help show the parent relationship for each commit, as well as showing 
+    branches that split off and visually shows the separation of these.
+
 
