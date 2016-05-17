@@ -11,4 +11,12 @@ What value do you think it offers?
     directory don't have to be put in the staging area, but if they aren't they
     won't be tracked by git.
 
+How can you use the staging area to make sure you have one commit per logical change?
 
+    The staging area shows how many files are there to be commited (git status). This
+    Allows you to see whether there are multiple files to be commited this cycle. 
+    Using "git diff" you can see what the differences are between the working 
+    directory and the staging area files.
+
+
+    
