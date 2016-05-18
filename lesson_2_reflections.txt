@@ -30,4 +30,11 @@ How do the diagrams help you visualize the branch structure?
     Diagrams help show the parent relationship for each commit, as well as showing 
     branches that split off and visually shows the separation of these.
 
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
 
+    Merging branches brings the changes present in both together, back to the point 
+    they diverged, providing a new "tip" of one of the branches. This interleaves 
+    the log messages of both branches, allowing for the removal of one of the branch
+     references. Mapping it out in a diagram allows for easier understanding of how
+    branches have diverged.
