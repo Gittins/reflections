@@ -25,10 +25,12 @@ organized? How would branches help?
     Splitting out test and production code would be a good reason to branch it.
     As would significant feature changes.
 
+
 How do the diagrams help you visualize the branch structure?
 
     Diagrams help show the parent relationship for each commit, as well as showing 
     branches that split off and visually shows the separation of these.
+
 
 What is the result of merging two branches together? Why do we represent it in the 
 diagram the way we do?
@@ -38,3 +40,12 @@ diagram the way we do?
     the log messages of both branches, allowing for the removal of one of the branch
      references. Mapping it out in a diagram allows for easier understanding of how
     branches have diverged.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+    Pros: Allows for quick, low touch, and accurate merging of two files.
+    Cons: Conflicts must be fixed before you can commit changes, which can't occurr 
+    automatically. Manual merges would mean you would be prepared to look at the 
+    conflicts at the point you tried to merge the files.
+
