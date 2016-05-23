@@ -30,4 +30,11 @@ would be harder?
     need to create a different file for every change each member made, with notes held in 
     the file or on a single document that everyone had to keep updated.
 
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
 
+    New features, bug fixes, etc. are some reasons why you would want to work in a separate
+     branch. When combined with pull requests it also allows for others to review and verify
+     you changes/additions in collaborative format. Working in master is simpler, but
+    removes the collaboration benefits that branching gives and means that you could break 
+    master whilst working on it.
