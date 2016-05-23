@@ -21,3 +21,13 @@ What is the benefit of having a copy of the last known state of the remote store
 
     It allows you to work on the latest version, up to that point, when not connected to 
     the internet.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what 
+would be harder?
+
+    Using something like Dropbox or Google Docs could be used to collaborate, however, you
+     wouldn't get the same level of information (commit info) and with Dropbox you would 
+    need to create a different file for every change each member made, with notes held in 
+    the file or on a single document that everyone had to keep updated.
+
+
