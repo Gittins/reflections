@@ -17,4 +17,7 @@ instead of another?
     Branches are a way of splitting out a repository, so changes can be made that don't 
     affect the original (master) repository either by yourself or when working with others.
 
+What is the benefit of having a copy of the last known state of the remote stored locally?
 
+    It allows you to work on the latest version, up to that point, when not connected to 
+    the internet.
